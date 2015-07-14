@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Seleção de Telefonemas</title>
+	<link href="cad_bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color:#eee">
+	<div class="container">
+		<div class="jumbotron">
+		<h1>Fila de Telefonemas</h1>
+			<p>Selecione a fila desejada e clique em "Pegar próximo item da fila" para abrir seu próximo telefonema.</p>
+			<div class="row">
+				<div class="col-md-3">	
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<span id="dropdownlbl">Filas disponíveis</span>
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						</ul>
+					</div>
+				</div>
+				<a class="btn btn-primary" role="button" id="btn-submit">Pegar próximo item da fila »</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="cad_jquery.min.js"></script>
+<script src="cad_bootstrap.min.js"></script>
+<script src="cad_CrmFetchKit.js"></script>
+<script src="cad_filatelefonema.js"></script>
+</body>
+</html>
